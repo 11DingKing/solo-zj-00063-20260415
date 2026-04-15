@@ -29,6 +29,10 @@ const productSchema = new mongoose.Schema({
     displayResolution: String,
     camera: String,
     cpu: String
+  },
+  stock: {
+    type: Number,
+    default: 100
   }
 });
 
